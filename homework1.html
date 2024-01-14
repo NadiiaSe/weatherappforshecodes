@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Ap</title>
+    <style>
+      body {
+        text-align: center;
+        margin: 5px auto;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .emoji {
+        font-size: 40px;
+      }
+      h1 {
+        margin: 5px auto;
+        font-size: 42px;
+      }
+      .header {
+        color: #1958d0;
+      }
+      .night {
+        font-weight: lighter;
+      }
+      .day {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0px 200px;
+        line-height: 2;
+        transition: all 200ms ease-in-out;
+        border-radius: 10px;
+        padding: 20px 20px;
+      }
+
+      .day:hover {
+        background: #fffaef;
+      }
+      button {
+        background: #1954c7;
+        border-color: transparent;
+        display: block;
+        margin: 20px auto;
+        padding: 20px 30px;
+        color: white;
+        font-size: 18px;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #7b1a36;
+        border-color: #1954c7;
+        cursor: pointer;
+      }
+      .end {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji">🌤️</div>
+    <h1 class="header">Currently 21° in Tokyo</h1>
+    <h1><span class="night">13° /</span> 23°</h1>
+    <br />
+    <div class="day">
+      🌧️ Tomorrow <br />
+      <span class="night">10° /</span> 22°
+    </div>
+    <div class="day">
+      🌥️ Saturday <br />
+      <span class="night">15° /</span> 17°
+    </div>
+    <div class="day">
+      ☀️ Sunday <br />
+      <span class="night">25° /</span> 28°
+    </div>
+    <button>Change city</button>
+    <div class="end">Coded by Nadiia S</div>
+  </body>
+</html>
